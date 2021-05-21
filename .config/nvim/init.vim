@@ -30,5 +30,5 @@ set signcolumn=number                       "Display signs in the number column,
 let g:material_style = 'oceanic'            "Use ocean option for material theme
 let g:airline_theme='material'              "Use material statusbar theme
 let g:airline_powerline_fonts = 1           "Enable statusbar icons
-colorscheme vim-material                    "Use material editor theme
+colorscheme nord "Use material editor theme
 lua require'nvim-treesitter.configs'.setup { ensure_installed = "all",highlight = { enable = false } }

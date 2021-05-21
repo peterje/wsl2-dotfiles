@@ -13,3 +13,8 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 inoremap <expr> <Tab>   pumvisible() ? "\<Down>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<Up>" : "\<S-Tab>"
 nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>fr <Plug>(coc-references)
+nnoremap <silent>    <S-h> :BufferPrevious<CR>
+nnoremap <silent>    <S-l> :BufferNext<CR>S>
+autocmd TabEnter * stopinsert
+
